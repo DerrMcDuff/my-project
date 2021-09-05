@@ -1,0 +1,11 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@layer base {
+    @font-face {
+      font-family: Merge One;
+      font-weight: 400;
+      src: url(../public/resources/fonts/MergeOne-Regular.ttf) format("ttf");
+    }
+  }
